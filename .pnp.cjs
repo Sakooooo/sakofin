@@ -29,8 +29,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@babel/core", "npm:7.23.2"],\
+            ["@expo/image-utils", "npm:0.3.23"],\
             ["expo", "npm:49.0.16"],\
+            ["expo-asset", "npm:8.13.0"],\
             ["expo-status-bar", "npm:1.6.0"],\
+            ["find-yarn-workspace-root", "npm:2.0.0"],\
+            ["glob", "npm:10.3.10"],\
+            ["lodash", "npm:4.17.21"],\
+            ["metro", "npm:0.80.0"],\
+            ["metro-cache", "npm:0.80.0"],\
+            ["metro-config", "npm:0.80.0"],\
+            ["metro-core", "npm:0.80.0"],\
             ["react", "npm:18.2.0"],\
             ["react-native", "virtual:c835feae714220d90eed1987da343a66fd57f8cfc172518ed60565b45ed954a17efcc4e7097c76f5f917cd0f2cfb6ac19eb5b1408356d40172531240453b042c#npm:0.72.6"]\
           ],\
@@ -3600,7 +3609,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["md5-file", "npm:3.2.3"],\
             ["md5hex", "npm:1.0.0"],\
             ["minipass", "npm:3.1.6"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["node-forge", "npm:1.3.1"],\
             ["npm-package-arg", "npm:7.0.0"],\
             ["ora", "npm:3.4.0"],\
@@ -3655,6 +3664,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sucrase", "npm:3.34.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.4.0", {\
+          "packageLocation": "./.yarn/cache/@expo-config-npm-8.4.0-54e89b84f9-37ed593fcd.zip/node_modules/@expo/config/",\
+          "packageDependencies": [\
+            ["@expo/config", "npm:8.4.0"],\
+            ["@babel/code-frame", "npm:7.10.4"],\
+            ["@expo/config-plugins", "npm:7.6.0"],\
+            ["@expo/config-types", "npm:50.0.0-alpha.2"],\
+            ["@expo/json-file", "npm:8.2.37"],\
+            ["getenv", "npm:1.0.0"],\
+            ["glob", "npm:7.1.6"],\
+            ["require-from-string", "npm:2.0.2"],\
+            ["resolve-from", "npm:5.0.0"],\
+            ["semver", "npm:7.5.3"],\
+            ["slugify", "npm:1.6.6"],\
+            ["sucrase", "npm:3.34.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@expo/config-plugins", [\
@@ -3663,6 +3690,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@expo/config-plugins", "npm:7.2.5"],\
             ["@expo/config-types", "npm:49.0.0"],\
+            ["@expo/json-file", "npm:8.2.37"],\
+            ["@expo/plist", "npm:0.0.20"],\
+            ["@expo/sdk-runtime-versions", "npm:1.0.0"],\
+            ["@react-native/normalize-color", "npm:2.1.0"],\
+            ["chalk", "npm:4.1.2"],\
+            ["debug", "virtual:4758feee42453c0e31b0d2032a7b1362d6b06281699830d2da9a056f2cca72bd2c5cfdb74005fdf03a64876be8eaca2dd7b0fc2dc59d14318badf19cb22ba18e#npm:4.3.4"],\
+            ["find-up", "npm:5.0.0"],\
+            ["getenv", "npm:1.0.0"],\
+            ["glob", "npm:7.1.6"],\
+            ["resolve-from", "npm:5.0.0"],\
+            ["semver", "npm:7.5.4"],\
+            ["slash", "npm:3.0.0"],\
+            ["xcode", "npm:3.0.1"],\
+            ["xml2js", "npm:0.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.6.0", {\
+          "packageLocation": "./.yarn/cache/@expo-config-plugins-npm-7.6.0-1eeef30006-2972ec6ec3.zip/node_modules/@expo/config-plugins/",\
+          "packageDependencies": [\
+            ["@expo/config-plugins", "npm:7.6.0"],\
+            ["@expo/config-types", "npm:50.0.0-alpha.2"],\
+            ["@expo/fingerprint", "npm:0.4.0"],\
             ["@expo/json-file", "npm:8.2.37"],\
             ["@expo/plist", "npm:0.0.20"],\
             ["@expo/sdk-runtime-versions", "npm:1.0.0"],\
@@ -3688,6 +3738,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@expo/config-types", "npm:49.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:50.0.0-alpha.2", {\
+          "packageLocation": "./.yarn/cache/@expo-config-types-npm-50.0.0-alpha.2-6d49cd44a7-1bdd073347.zip/node_modules/@expo/config-types/",\
+          "packageDependencies": [\
+            ["@expo/config-types", "npm:50.0.0-alpha.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@expo/dev-server", [\
@@ -3705,7 +3762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-extra", "npm:9.0.0"],\
             ["is-docker", "npm:2.2.1"],\
             ["is-wsl", "npm:2.2.0"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["open", "npm:8.4.2"],\
             ["resolve-from", "npm:5.0.0"],\
             ["serialize-error", "npm:6.0.0"],\
@@ -3750,6 +3807,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@expo/fingerprint", [\
+        ["npm:0.4.0", {\
+          "packageLocation": "./.yarn/cache/@expo-fingerprint-npm-0.4.0-ac1a4a43aa-767668b0e5.zip/node_modules/@expo/fingerprint/",\
+          "packageDependencies": [\
+            ["@expo/fingerprint", "npm:0.4.0"],\
+            ["@expo/spawn-async", "npm:1.7.2"],\
+            ["chalk", "npm:4.1.2"],\
+            ["debug", "virtual:4758feee42453c0e31b0d2032a7b1362d6b06281699830d2da9a056f2cca72bd2c5cfdb74005fdf03a64876be8eaca2dd7b0fc2dc59d14318badf19cb22ba18e#npm:4.3.4"],\
+            ["find-up", "npm:5.0.0"],\
+            ["minimatch", "npm:3.1.2"],\
+            ["p-limit", "npm:3.1.0"],\
+            ["resolve-from", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@expo/image-utils", [\
         ["npm:0.3.22", {\
           "packageLocation": "./.yarn/cache/@expo-image-utils-npm-0.3.22-0fb0c07f62-09b2db29f4.zip/node_modules/@expo/image-utils/",\
@@ -3761,7 +3834,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["getenv", "npm:1.0.0"],\
             ["jimp-compact", "npm:0.16.1"],\
             ["mime", "npm:2.6.0"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
+            ["parse-png", "npm:2.1.0"],\
+            ["resolve-from", "npm:5.0.0"],\
+            ["semver", "npm:7.3.2"],\
+            ["tempy", "npm:0.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.3.23", {\
+          "packageLocation": "./.yarn/cache/@expo-image-utils-npm-0.3.23-5c79b26615-74057f8f96.zip/node_modules/@expo/image-utils/",\
+          "packageDependencies": [\
+            ["@expo/image-utils", "npm:0.3.23"],\
+            ["@expo/spawn-async", "npm:1.5.0"],\
+            ["chalk", "npm:4.1.2"],\
+            ["fs-extra", "npm:9.0.0"],\
+            ["getenv", "npm:1.0.0"],\
+            ["jimp-compact", "npm:0.16.1"],\
+            ["mime", "npm:2.6.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["parse-png", "npm:2.1.0"],\
             ["resolve-from", "npm:5.0.0"],\
             ["semver", "npm:7.3.2"],\
@@ -3887,7 +3978,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@segment/loosely-validate-event", "npm:2.0.0"],\
             ["fetch-retry", "npm:4.1.1"],\
             ["md5", "npm:2.3.0"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["remove-trailing-slash", "npm:0.1.1"],\
             ["uuid", "npm:8.3.2"]\
           ],\
@@ -4416,7 +4507,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nocache", "npm:3.0.4"],\
             ["pretty-format", "npm:26.6.2"],\
             ["serve-static", "npm:1.15.0"],\
-            ["ws", "virtual:6bd360a9e5c3c1179c866af79e0ed50294e693db35d98f766f5ef8e240a72773dcd5652d9c72c16c150db1de6349f9ed3bb356ac17c4f576b863900ae21e5a27#npm:7.5.9"]\
+            ["ws", "virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4430,7 +4521,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.2"],\
             ["find-up", "npm:5.0.0"],\
             ["mime", "npm:2.6.0"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["open", "npm:6.4.0"],\
             ["ora", "npm:5.4.1"],\
             ["semver", "npm:7.5.4"],\
@@ -6020,7 +6111,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cross-fetch-npm-3.1.8-71c3c05709-78f993fa09.zip/node_modules/cross-fetch/",\
           "packageDependencies": [\
             ["cross-fetch", "npm:3.1.8"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"]\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6609,7 +6700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fbemitter", "npm:3.0.0"],\
             ["invariant", "npm:2.2.4"],\
             ["md5-file", "npm:3.2.3"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["pretty-format", "npm:26.6.2"],\
             ["uuid", "npm:3.4.0"]\
           ],\
@@ -6652,6 +6743,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["url-parse", "npm:1.5.10"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.13.0", {\
+          "packageLocation": "./.yarn/cache/expo-asset-npm-8.13.0-33877dc268-2e1dc8acee.zip/node_modules/expo-asset/",\
+          "packageDependencies": [\
+            ["expo-asset", "npm:8.13.0"],\
+            ["blueimp-md5", "npm:2.19.0"],\
+            ["expo-constants", "virtual:33877dc2687368a55466899daef9dd6355c3d762cc88207a3632fed479323a3d66b2f664131db7bbdd1ecab797e5101b94800cbdc2e27c4eb699781eea5a717f#npm:15.2.0"],\
+            ["expo-file-system", "virtual:33877dc2687368a55466899daef9dd6355c3d762cc88207a3632fed479323a3d66b2f664131db7bbdd1ecab797e5101b94800cbdc2e27c4eb699781eea5a717f#npm:15.8.0"],\
+            ["invariant", "npm:2.2.4"],\
+            ["md5-file", "npm:3.2.3"],\
+            ["path-browserify", "npm:1.0.1"],\
+            ["url-parse", "npm:1.5.10"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["expo-constants", [\
@@ -6661,6 +6766,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["expo-constants", "npm:14.4.2"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["npm:15.2.0", {\
+          "packageLocation": "./.yarn/unplugged/expo-constants-virtual-32a1c07a5b/node_modules/expo-constants/",\
+          "packageDependencies": [\
+            ["expo-constants", "npm:15.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:33877dc2687368a55466899daef9dd6355c3d762cc88207a3632fed479323a3d66b2f664131db7bbdd1ecab797e5101b94800cbdc2e27c4eb699781eea5a717f#npm:15.2.0", {\
+          "packageLocation": "./.yarn/unplugged/expo-constants-virtual-32a1c07a5b/node_modules/expo-constants/",\
+          "packageDependencies": [\
+            ["expo-constants", "virtual:33877dc2687368a55466899daef9dd6355c3d762cc88207a3632fed479323a3d66b2f664131db7bbdd1ecab797e5101b94800cbdc2e27c4eb699781eea5a717f#npm:15.2.0"],\
+            ["@expo/config", "npm:8.4.0"],\
+            ["@types/expo", null],\
+            ["expo", null],\
+            ["uuid", "npm:3.4.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/expo",\
+            "expo"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:be218033aebf51494c1e660695b886fa6734a5dfd71bcbcf49527e908ff293dc043b426d41759e17b351d803d7a2f013c2079f5b2fab20b09a320ecfb4f41eb5#npm:14.4.2", {\
           "packageLocation": "./.yarn/unplugged/expo-constants-virtual-776cb59970/node_modules/expo-constants/",\
@@ -6700,6 +6827,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["expo-file-system", "npm:15.4.4"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["npm:15.8.0", {\
+          "packageLocation": "./.yarn/unplugged/expo-file-system-virtual-b059993864/node_modules/expo-file-system/",\
+          "packageDependencies": [\
+            ["expo-file-system", "npm:15.8.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:33877dc2687368a55466899daef9dd6355c3d762cc88207a3632fed479323a3d66b2f664131db7bbdd1ecab797e5101b94800cbdc2e27c4eb699781eea5a717f#npm:15.8.0", {\
+          "packageLocation": "./.yarn/unplugged/expo-file-system-virtual-b059993864/node_modules/expo-file-system/",\
+          "packageDependencies": [\
+            ["expo-file-system", "virtual:33877dc2687368a55466899daef9dd6355c3d762cc88207a3632fed479323a3d66b2f664131db7bbdd1ecab797e5101b94800cbdc2e27c4eb699781eea5a717f#npm:15.8.0"],\
+            ["@types/expo", null],\
+            ["expo", null],\
+            ["uuid", "npm:3.4.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/expo",\
+            "expo"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:be218033aebf51494c1e660695b886fa6734a5dfd71bcbcf49527e908ff293dc043b426d41759e17b351d803d7a2f013c2079f5b2fab20b09a320ecfb4f41eb5#npm:15.4.4", {\
           "packageLocation": "./.yarn/unplugged/expo-file-system-virtual-503543f4d7/node_modules/expo-file-system/",\
@@ -7425,6 +7573,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hermes-estree", "npm:0.12.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.17.0", {\
+          "packageLocation": "./.yarn/cache/hermes-estree-npm-0.17.0-e40d35a06b-71ab6e30ef.zip/node_modules/hermes-estree/",\
+          "packageDependencies": [\
+            ["hermes-estree", "npm:0.17.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["hermes-parser", [\
@@ -7433,6 +7588,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["hermes-parser", "npm:0.12.0"],\
             ["hermes-estree", "npm:0.12.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.17.0", {\
+          "packageLocation": "./.yarn/cache/hermes-parser-npm-0.17.0-ee55ad6589-1d01b519c4.zip/node_modules/hermes-parser/",\
+          "packageDependencies": [\
+            ["hermes-parser", "npm:0.17.0"],\
+            ["hermes-estree", "npm:0.17.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8062,6 +8225,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["supports-color", "npm:8.1.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:29.7.0", {\
+          "packageLocation": "./.yarn/cache/jest-worker-npm-29.7.0-4d3567fed6-30fff60af4.zip/node_modules/jest-worker/",\
+          "packageDependencies": [\
+            ["jest-worker", "npm:29.7.0"],\
+            ["@types/node", "npm:20.8.10"],\
+            ["jest-util", "npm:29.7.0"],\
+            ["merge-stream", "npm:2.0.0"],\
+            ["supports-color", "npm:8.1.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["jimp-compact", [\
@@ -8670,14 +8844,65 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-transform-plugins", "npm:0.76.8"],\
             ["metro-transform-worker", "npm:0.76.8"],\
             ["mime-types", "npm:2.1.35"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["nullthrows", "npm:1.1.1"],\
             ["rimraf", "npm:3.0.2"],\
             ["serialize-error", "npm:2.1.0"],\
             ["source-map", "npm:0.5.7"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["throat", "npm:5.0.0"],\
-            ["ws", "virtual:6bd360a9e5c3c1179c866af79e0ed50294e693db35d98f766f5ef8e240a72773dcd5652d9c72c16c150db1de6349f9ed3bb356ac17c4f576b863900ae21e5a27#npm:7.5.9"],\
+            ["ws", "virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9"],\
+            ["yargs", "npm:17.7.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-npm-0.80.0-18293be9c7-8839f9a83d.zip/node_modules/metro/",\
+          "packageDependencies": [\
+            ["metro", "npm:0.80.0"],\
+            ["@babel/code-frame", "npm:7.22.13"],\
+            ["@babel/core", "npm:7.23.2"],\
+            ["@babel/generator", "npm:7.23.0"],\
+            ["@babel/parser", "npm:7.23.0"],\
+            ["@babel/template", "npm:7.22.15"],\
+            ["@babel/traverse", "npm:7.23.2"],\
+            ["@babel/types", "npm:7.23.0"],\
+            ["accepts", "npm:1.3.8"],\
+            ["chalk", "npm:4.1.2"],\
+            ["ci-info", "npm:2.0.0"],\
+            ["connect", "npm:3.7.0"],\
+            ["debug", "virtual:44738662cf800ff2863ba9baeabb817b24a959a14f86e20a31680e5dc79a4a738f7ceb7dca32753d579fae475aa061dffad8228a3391f3a9546b122f077e29a5#npm:2.6.9"],\
+            ["denodeify", "npm:1.2.1"],\
+            ["error-stack-parser", "npm:2.1.4"],\
+            ["graceful-fs", "npm:4.2.11"],\
+            ["hermes-parser", "npm:0.17.0"],\
+            ["image-size", "npm:1.0.2"],\
+            ["invariant", "npm:2.2.4"],\
+            ["jest-worker", "npm:29.7.0"],\
+            ["jsc-safe-url", "npm:0.2.4"],\
+            ["lodash.throttle", "npm:4.1.1"],\
+            ["metro-babel-transformer", "npm:0.80.0"],\
+            ["metro-cache", "npm:0.80.0"],\
+            ["metro-cache-key", "npm:0.80.0"],\
+            ["metro-config", "npm:0.80.0"],\
+            ["metro-core", "npm:0.80.0"],\
+            ["metro-file-map", "npm:0.80.0"],\
+            ["metro-minify-terser", "npm:0.80.0"],\
+            ["metro-resolver", "npm:0.80.0"],\
+            ["metro-runtime", "npm:0.80.0"],\
+            ["metro-source-map", "npm:0.80.0"],\
+            ["metro-symbolicate", "npm:0.80.0"],\
+            ["metro-transform-plugins", "npm:0.80.0"],\
+            ["metro-transform-worker", "npm:0.80.0"],\
+            ["mime-types", "npm:2.1.35"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
+            ["nullthrows", "npm:1.1.1"],\
+            ["rimraf", "npm:3.0.2"],\
+            ["serialize-error", "npm:2.1.0"],\
+            ["source-map", "npm:0.5.7"],\
+            ["strip-ansi", "npm:6.0.1"],\
+            ["throat", "npm:5.0.0"],\
+            ["ws", "virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9"],\
             ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "HARD"\
@@ -8693,6 +8918,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nullthrows", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-babel-transformer-npm-0.80.0-850b71090b-fc68373b8c.zip/node_modules/metro-babel-transformer/",\
+          "packageDependencies": [\
+            ["metro-babel-transformer", "npm:0.80.0"],\
+            ["@babel/core", "npm:7.23.2"],\
+            ["hermes-parser", "npm:0.17.0"],\
+            ["nullthrows", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-cache", [\
@@ -8704,6 +8939,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:3.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-cache-npm-0.80.0-ace3d1bbec-f8072b16ac.zip/node_modules/metro-cache/",\
+          "packageDependencies": [\
+            ["metro-cache", "npm:0.80.0"],\
+            ["metro-core", "npm:0.80.0"],\
+            ["rimraf", "npm:3.0.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-cache-key", [\
@@ -8711,6 +8955,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/metro-cache-key-npm-0.76.8-6c496f320f-23d33652ff.zip/node_modules/metro-cache-key/",\
           "packageDependencies": [\
             ["metro-cache-key", "npm:0.76.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-cache-key-npm-0.80.0-346523f81e-4a9e5e304d.zip/node_modules/metro-cache-key/",\
+          "packageDependencies": [\
+            ["metro-cache-key", "npm:0.80.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8729,6 +8980,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-runtime", "npm:0.76.8"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-config-npm-0.80.0-73405d2b00-165e6192cf.zip/node_modules/metro-config/",\
+          "packageDependencies": [\
+            ["metro-config", "npm:0.80.0"],\
+            ["connect", "npm:3.7.0"],\
+            ["cosmiconfig", "npm:5.2.1"],\
+            ["jest-validate", "npm:29.7.0"],\
+            ["metro", "npm:0.80.0"],\
+            ["metro-cache", "npm:0.80.0"],\
+            ["metro-core", "npm:0.80.0"],\
+            ["metro-runtime", "npm:0.80.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-core", [\
@@ -8738,6 +9003,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-core", "npm:0.76.8"],\
             ["lodash.throttle", "npm:4.1.1"],\
             ["metro-resolver", "npm:0.76.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-core-npm-0.80.0-78c7e63fd1-e0cda68bc7.zip/node_modules/metro-core/",\
+          "packageDependencies": [\
+            ["metro-core", "npm:0.80.0"],\
+            ["lodash.throttle", "npm:4.1.1"],\
+            ["metro-resolver", "npm:0.80.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8762,6 +9036,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["walker", "npm:1.0.8"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-file-map-npm-0.80.0-5d1a18df82-0061d8151c.zip/node_modules/metro-file-map/",\
+          "packageDependencies": [\
+            ["metro-file-map", "npm:0.80.0"],\
+            ["anymatch", "npm:3.1.3"],\
+            ["debug", "virtual:44738662cf800ff2863ba9baeabb817b24a959a14f86e20a31680e5dc79a4a738f7ceb7dca32753d579fae475aa061dffad8228a3391f3a9546b122f077e29a5#npm:2.6.9"],\
+            ["fb-watchman", "npm:2.0.2"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+            ["graceful-fs", "npm:4.2.11"],\
+            ["invariant", "npm:2.2.4"],\
+            ["jest-worker", "npm:29.7.0"],\
+            ["micromatch", "npm:4.0.5"],\
+            ["node-abort-controller", "npm:3.1.1"],\
+            ["nullthrows", "npm:1.1.1"],\
+            ["walker", "npm:1.0.8"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-inspector-proxy", [\
@@ -8771,8 +9063,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-inspector-proxy", "npm:0.76.8"],\
             ["connect", "npm:3.7.0"],\
             ["debug", "virtual:44738662cf800ff2863ba9baeabb817b24a959a14f86e20a31680e5dc79a4a738f7ceb7dca32753d579fae475aa061dffad8228a3391f3a9546b122f077e29a5#npm:2.6.9"],\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
-            ["ws", "virtual:6bd360a9e5c3c1179c866af79e0ed50294e693db35d98f766f5ef8e240a72773dcd5652d9c72c16c150db1de6349f9ed3bb356ac17c4f576b863900ae21e5a27#npm:7.5.9"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
+            ["ws", "virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9"],\
             ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "HARD"\
@@ -8783,6 +9075,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/metro-minify-terser-npm-0.76.8-7fdfc87536-58beaed29f.zip/node_modules/metro-minify-terser/",\
           "packageDependencies": [\
             ["metro-minify-terser", "npm:0.76.8"],\
+            ["terser", "npm:5.24.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-minify-terser-npm-0.80.0-f813ccd8e5-867f8db5da.zip/node_modules/metro-minify-terser/",\
+          "packageDependencies": [\
+            ["metro-minify-terser", "npm:0.80.0"],\
             ["terser", "npm:5.24.0"]\
           ],\
           "linkType": "HARD"\
@@ -8889,6 +9189,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-resolver", "npm:0.76.8"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-resolver-npm-0.80.0-2f3adab7f6-2713d6b604.zip/node_modules/metro-resolver/",\
+          "packageDependencies": [\
+            ["metro-resolver", "npm:0.80.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-runtime", [\
@@ -8898,6 +9205,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-runtime", "npm:0.76.8"],\
             ["@babel/runtime", "npm:7.23.2"],\
             ["react-refresh", "npm:0.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-runtime-npm-0.80.0-fc70183e1d-22c29aa5f0.zip/node_modules/metro-runtime/",\
+          "packageDependencies": [\
+            ["metro-runtime", "npm:0.80.0"],\
+            ["@babel/runtime", "npm:7.23.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8917,6 +9232,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vlq", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-source-map-npm-0.80.0-2870759d8a-2200336a67.zip/node_modules/metro-source-map/",\
+          "packageDependencies": [\
+            ["metro-source-map", "npm:0.80.0"],\
+            ["@babel/traverse", "npm:7.23.2"],\
+            ["@babel/types", "npm:7.23.0"],\
+            ["invariant", "npm:2.2.4"],\
+            ["metro-symbolicate", "npm:0.80.0"],\
+            ["nullthrows", "npm:1.1.1"],\
+            ["ob1", "npm:0.80.0"],\
+            ["source-map", "npm:0.5.7"],\
+            ["vlq", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-symbolicate", [\
@@ -8932,6 +9262,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vlq", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-symbolicate-npm-0.80.0-a97c284a36-e46f704f3b.zip/node_modules/metro-symbolicate/",\
+          "packageDependencies": [\
+            ["metro-symbolicate", "npm:0.80.0"],\
+            ["invariant", "npm:2.2.4"],\
+            ["metro-source-map", "npm:0.80.0"],\
+            ["nullthrows", "npm:1.1.1"],\
+            ["source-map", "npm:0.5.7"],\
+            ["through2", "npm:2.0.5"],\
+            ["vlq", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["metro-transform-plugins", [\
@@ -8939,6 +9282,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/metro-transform-plugins-npm-0.76.8-817915c1eb-3db7b3ac80.zip/node_modules/metro-transform-plugins/",\
           "packageDependencies": [\
             ["metro-transform-plugins", "npm:0.76.8"],\
+            ["@babel/core", "npm:7.23.2"],\
+            ["@babel/generator", "npm:7.23.0"],\
+            ["@babel/template", "npm:7.22.15"],\
+            ["@babel/traverse", "npm:7.23.2"],\
+            ["nullthrows", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-transform-plugins-npm-0.80.0-3e66c9d23a-e56675865c.zip/node_modules/metro-transform-plugins/",\
+          "packageDependencies": [\
+            ["metro-transform-plugins", "npm:0.80.0"],\
             ["@babel/core", "npm:7.23.2"],\
             ["@babel/generator", "npm:7.23.0"],\
             ["@babel/template", "npm:7.22.15"],\
@@ -8964,6 +9319,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["metro-cache-key", "npm:0.76.8"],\
             ["metro-source-map", "npm:0.76.8"],\
             ["metro-transform-plugins", "npm:0.76.8"],\
+            ["nullthrows", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/metro-transform-worker-npm-0.80.0-acef4b533b-62c3a3a753.zip/node_modules/metro-transform-worker/",\
+          "packageDependencies": [\
+            ["metro-transform-worker", "npm:0.80.0"],\
+            ["@babel/core", "npm:7.23.2"],\
+            ["@babel/generator", "npm:7.23.0"],\
+            ["@babel/parser", "npm:7.23.0"],\
+            ["@babel/types", "npm:7.23.0"],\
+            ["metro", "npm:0.80.0"],\
+            ["metro-babel-transformer", "npm:0.80.0"],\
+            ["metro-cache", "npm:0.80.0"],\
+            ["metro-cache-key", "npm:0.80.0"],\
+            ["metro-source-map", "npm:0.80.0"],\
+            ["metro-transform-plugins", "npm:0.80.0"],\
             ["nullthrows", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
@@ -9316,10 +9689,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-fbd4b2e1ac/0/cache/node-fetch-npm-2.7.0-587d57004e-d76d2f5edb.zip/node_modules/node-fetch/",\
+        ["virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0", {\
+          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-df292058bb/0/cache/node-fetch-npm-2.7.0-587d57004e-d76d2f5edb.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
-            ["node-fetch", "virtual:e39a3f4901217f31e88615304df84ff060f12848ac460e9bf6149ebf81d6907b734623c47ad49597463b9ad53c463104a65b925a660ef9dd0396d8196886c18c#npm:2.7.0"],\
+            ["node-fetch", "virtual:5c79b2661520e47f677ea3f4efe8a05b99b0d178e9822b4af64716b8f02f95340f38e90e59a769d43a400b1a5ae02ae91df84749d88d7cb2ef51747c71cf39aa#npm:2.7.0"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
@@ -9450,6 +9823,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ob1-npm-0.76.8-6e36acaf2a-3feb035a0d.zip/node_modules/ob1/",\
           "packageDependencies": [\
             ["ob1", "npm:0.76.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.80.0", {\
+          "packageLocation": "./.yarn/cache/ob1-npm-0.80.0-a9e656c337-8bbc8aa0ab.zip/node_modules/ob1/",\
+          "packageDependencies": [\
+            ["ob1", "npm:0.80.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10130,7 +10510,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react-devtools-core", "npm:4.28.5"],\
             ["shell-quote", "npm:1.8.1"],\
-            ["ws", "virtual:6bd360a9e5c3c1179c866af79e0ed50294e693db35d98f766f5ef8e240a72773dcd5652d9c72c16c150db1de6349f9ed3bb356ac17c4f576b863900ae21e5a27#npm:7.5.9"]\
+            ["ws", "virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10591,8 +10971,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["sakofin", "workspace:."],\
             ["@babel/core", "npm:7.23.2"],\
+            ["@expo/image-utils", "npm:0.3.23"],\
             ["expo", "npm:49.0.16"],\
+            ["expo-asset", "npm:8.13.0"],\
             ["expo-status-bar", "npm:1.6.0"],\
+            ["find-yarn-workspace-root", "npm:2.0.0"],\
+            ["glob", "npm:10.3.10"],\
+            ["lodash", "npm:4.17.21"],\
+            ["metro", "npm:0.80.0"],\
+            ["metro-cache", "npm:0.80.0"],\
+            ["metro-config", "npm:0.80.0"],\
+            ["metro-core", "npm:0.80.0"],\
             ["react", "npm:18.2.0"],\
             ["react-native", "virtual:c835feae714220d90eed1987da343a66fd57f8cfc172518ed60565b45ed954a17efcc4e7097c76f5f917cd0f2cfb6ac19eb5b1408356d40172531240453b042c#npm:0.72.6"]\
           ],\
@@ -12020,10 +12409,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:6bd360a9e5c3c1179c866af79e0ed50294e693db35d98f766f5ef8e240a72773dcd5652d9c72c16c150db1de6349f9ed3bb356ac17c4f576b863900ae21e5a27#npm:7.5.9", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-77d186ec6b/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
+        ["virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-c98eabbb6d/0/cache/ws-npm-7.5.9-26f12a5ed6-c3c100a181.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:6bd360a9e5c3c1179c866af79e0ed50294e693db35d98f766f5ef8e240a72773dcd5652d9c72c16c150db1de6349f9ed3bb356ac17c4f576b863900ae21e5a27#npm:7.5.9"],\
+            ["ws", "virtual:18293be9c72f94683b1d1112a6aebd9f74cb526f57dee062d154f925f6ea37a23af77f4485c84bccca52040c6f3367c351ebecf7727dbde6ee3e0605bba3efc6#npm:7.5.9"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
