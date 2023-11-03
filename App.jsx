@@ -1,13 +1,17 @@
+// expo + react native
 import { StatusBar } from 'expo-status-bar';
-import { useRef } from 'react'
 import {
     StyleSheet,
     Text,
     View,
     Image,
 } from 'react-native';
+// navigating between pages (jsx files)
+import Home from './src/home';
 
-export default function App() {
+// launch screen
+function App() {
+
   return (
     <View style={styles.container}>
       <Image
@@ -19,6 +23,7 @@ export default function App() {
   );
 }
 
+// css styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -41,3 +46,5 @@ const styles = StyleSheet.create({
         color: 'white',
     },
 });
+
+export default App;
